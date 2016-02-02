@@ -5,7 +5,7 @@
 
 .frontpagetitle {
     font-family: 'helsinki';
-    
+
 }
 
 @font-face {
@@ -15,6 +15,17 @@
 
 .results {
     font-family: 'museo_slab';
+    font-size: 150%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#playedurself {
+	margin-left: 19%;
+}
+
+.footerclass {
+	margin-left: 1100px;
 }
 
 
