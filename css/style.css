@@ -1,41 +1,20 @@
-body {
-	width: 100%;
-	margin: auto 0;
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+@font-face {
+    font-family: 'helsinki';
+    src: url(helsinki-webfont.woff);
 }
 
-/*GLOBAL STYLING*/
-h1 {
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
+.frontpagetitle {
+    font-family: 'helsinki';
+    
 }
-h3 {
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 15.4px;
+
+@font-face {
+    font-family: 'museo_slab';
+    src: url(Museo_Slab_500_2-webfont.woff);
 }
-p {
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
+
+.results {
+    font-family: 'museo_slab';
 }
-/*GLOBAL STYLING*/
-
-
-
-
-
-
-
 
 
