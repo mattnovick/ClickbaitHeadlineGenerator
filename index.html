@@ -18,25 +18,23 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this project -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!-- FullPage styling -->
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-
-
 
   </head>
 
 
   <body>
     
+    
+
+
+
     <div id="fullpage">
 
-
-
-
-
-      <!-- Main component for a primary marketing message or call to action -->
       <div class="section container" id="section0">
         <div class="jumbotron">
           <h1 class="frontpagetitle">Clicky Crappy</h1><h1 class="frontpagetitle">Headline Generator</h1>
@@ -58,7 +56,7 @@
         <div class="jumbotron">
           <h1>Feel This More</h1>
           <p>
-            <a class="btn btn-lg btn-primary" onclick="GetValue_Feels();" role="button">Generate</a>
+            <a class="btn btn-lg btn-primary" onclick="GetValue_Feelings();" role="button">Generate</a>
           </p>
           <p class="results" id="messagefeels" ></p>
           <p class="messagefeels2" ></p>
@@ -81,14 +79,7 @@
             </div>
           </footer>
       </div>
-
-
-      
-
-        
-        
-
-    </div> <!-- /container -->
+    </div> <!-- /fullpage -->
  
 
 
@@ -102,7 +93,6 @@
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
@@ -111,27 +101,28 @@
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+   <!--  JQUERY CALL -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
 
+    <!-- FULLPAGE CALL -->
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          sectionsColor: ["'#779ECB'", '#4BBFC3', '#7BAABE', '#C23B22'],
+          
+          menu: '#menu',
+          scrollingSpeed: 1000
+        });
 
-  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-  
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('#fullpage').fullpage({
-        sectionsColor: ["'#007fff'", '#4BBFC3', '#7BAABE', 'red'],
-        
-        menu: '#menu',
-        scrollingSpeed: 1000
       });
+    </script>
 
-    });
-  </script>
-
-    
   </body>  
+
+
 
 
 

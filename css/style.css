@@ -21,11 +21,17 @@
 }
 
 #playedurself {
-	margin-left: 19%;
+	width: 600px;
 }
 
 .footerclass {
 	margin-left: 1100px;
+}
+
+#thekey {
+    position: relative;
+    left: 20%;
+    top: 20%;
 }
 
 
