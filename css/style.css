@@ -25,7 +25,8 @@
 }
 
 .footerclass {
-	margin-left: 1100px;
+    position: relative;
+	margin-left: 92%;
 }
 
 #thekey {
